@@ -4,8 +4,8 @@ using System.Text;
 
 namespace MDS_CodeGeneration
 {
-    public class MDS_CodeGenModule:MDS_Types_Tools.BaseClass_Module
+    public class MDS_CodeGenModule:Clean_BaseLib.BaseClass_Module
     {
-        public MDS_CodeGenModule(MDS_Types_Tools.BaseClass_ModuleExecutionSystem modExeSys) : base(modExeSys) { }
+        public MDS_CodeGenModule(Clean_BaseLib.BaseClass_ModuleExecutionSystem modExeSys) : base(modExeSys) { }
     }
 }
